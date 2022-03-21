@@ -120,5 +120,5 @@ Run filebeat playbook
 - _ansible-playbook /etc/ansible/roles/filebeat-playbook.yml_
 
 Navigate to URL
-- _http:20.58.178.137:5601/_
+- _http://20.58.178.137:5601/_
  

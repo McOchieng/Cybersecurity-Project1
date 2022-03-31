@@ -6,9 +6,11 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above or specific files may be used to install only certain components of the deployment, such as Filebeat and metricbeat yml files.
 
-   -_![Elk-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Elk-Playbook.yml.txt)_
-   -_![Filebeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Filebeat-Playbook.yml.txt)_
-   -_![Metricbeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Metricbeat-Playbook.yml.txt)_
+   ![Elk-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Elk-Playbook.yml.txt)
+   
+   ![Filebeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Filebeat-Playbook.yml.txt)
+   
+   ![Metricbeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Metricbeat-Playbook.yml.txt)
  
 This document contains the following details:
 - Description of the Topologu

@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above or specific files may be used to install only certain components of the deployment, such as Filebeats.
 
-  - _Elk-Playbook.yml_
+   ![Elk-Playbook.yml]
  
 This document contains the following details:
 - Description of the Topologu
@@ -52,10 +52,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name       | Publicly Accessible | Allowed IP Addresses  |
 |------------|---------------------|-----------------------|
-| Jump Box   | No                  | Personal PC Public IP |
+| Jump Box   | Yes                 | Personal PC Public IP |
 | Web-1      | No                  | 10.0.0.6              |
 | Web-2      | No                  | 10.0.0.7              |
-| Elk Server | No                  | 10.1.0.4              |
+| Elk Server | Yes                 | Elk Server Public IP  |
 
 ### Elk Configuration
 
@@ -90,13 +90,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the filebeat-config.yml file to /etc/ansible/files.
 - Update the /etc/ansible/host file to include the private IP addresses of the DVWA web servers.
-- Run the playbook, and navigate to http://20.58.178.137:5601/ to check that the installation worked as expected.
+- Run the playbook, and navigate to http://elk-server-ip:5601/ to check that the installation worked as expected.
 
 ![Kibana](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Images/Kibana.JPG)
 
 ### Commands needed to run the ansible configurations for the Elk-Server
 SSH into JumpBox from Local workstation/desktop
-- _ssh azureuser@20.70.9.114_
+- _ssh azureuser@jumpbox-public-ip_
 
 List available docker containers
 - _sudo docker container list -a_
@@ -120,5 +120,5 @@ Run filebeat playbook
 - _ansible-playbook /etc/ansible/roles/filebeat-playbook.yml_
 
 Navigate to URL
-- _http://20.58.178.137:5601/_
+- _http://elk-server-ip:5601/_
  

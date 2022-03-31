@@ -8,9 +8,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
    ![Elk-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Elk-Playbook.yml.txt)
    
-   ![Filebeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Filebeat-Playbook.yml.txt)
+   ![Filebeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/filebeat-playbook.yml.txt)
    
-   ![Metricbeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Metricbeat-Playbook.yml.txt)
+   ![Metricbeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/metricbeat-playbook.yml.txt)
  
 This document contains the following details:
 - Description of the Topology

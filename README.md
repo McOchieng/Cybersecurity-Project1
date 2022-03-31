@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
    ![Metricbeat-Playbook.yml](https://github.com/McOchieng/Cybersecurity-Project1/blob/main/Ansible/Metricbeat-Playbook.yml.txt)
  
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
